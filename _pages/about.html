@@ -18,6 +18,14 @@ permalink: about:output_ext
       </div>
       <h3>{{site.author}}</h3>
       <p class="subtitle">{{site.about-author}}</p>
+      <li>
+        <a
+          href="https://github.com/sanaiftikharh/my-business-card/releases/latest"
+          target="_blank"
+        >
+          Download My Business Card
+        </a>
+      </li>
     </section>
     <section class="about-body">
       <ul class="contact-list">
@@ -48,16 +56,7 @@ permalink: about:output_ext
             ><i class="fa fa-github"></i
           ></a>
         </li>
-        {% endif %}
-        <li>
-          <a
-            href="https://github.com/sanaiftikharh/my-business-card/releases/latest"
-            target="_blank"
-          >
-            Download My Business Card
-          </a>
-        </li>
-        {% if site.email %}
+        {% endif %} {% if site.email %}
         <li class="email">
           <a class="email" href="mailto:{{site.email}}"
             ><i class="fa fa-envelope-o"></i
